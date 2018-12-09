@@ -1,0 +1,47 @@
+<!--
+  ~ Copyright (c) 2018. HuanLu Robotics. Todos los derechos reservados / All rigths reserved.
+  -->
+
+<resources>
+    <string name="app_name">IncidentsReport</string>
+    <string name="incident_title_hint">Enter a title for the incident</string>
+    <string name="incident_title_label">Title</string>
+    <string name="incident_details_label">Details</string>
+    <string name="incident_solved_label">Solved</string>
+    <string name="date_picker_title">Date of Incident</string>
+    <string name="new_incident">New Incident</string>
+    <string name="show_subtitle">Show Subtitle</string>
+    <string name="hide_subtitle">Hide Subtitle</string>
+    <string name="subtitle_format">%1$s incidents</string>
+    <string name="subtitles_option">Subtitles</string>
+    <string name="exit_app">Exit</string>
+    <string name="empty_incident_list_message_textview">Uppss! There is no incidents yet!</string>
+    <string name="empty_incident_list_add_new_incident_button_message">Click to add</string>
+    <string name="create_new_incident_button">Create new incident</string>
+    <string name="retry_incident_list_message_textview">A problem to load data has occurred</string>
+    <string name="retry_incident_list_button_message">Click to retry</string>
+    <string name="incident_details_hint">Enter details for the incident</string>
+    <string name="delete_incident">Delete incident</string>
+    <string name="confirm_finish_incident">Confirm to finish edit</string>
+    <string name="empty_text" />
+    <string name="duplicate_incident">Duplicate</string>
+    <string name="incident_suspect_text">Choose Suspect</string>
+    <string name="incident_suspect_label">Suspect: %1$s</string>
+    <string name="incident_report_text">Send Online Report</string>
+    <string name="incident_report_content">%1$s! The incident was discovered on %2$s, %3$s and %4$s</string>
+    <string name="incident_report_solved">The case is solved</string>
+    <string name="incident_report_unsolved">The case is not solved</string>
+    <string name="incident_report_suspect">The suspect is %s.</string>
+    <string name="incident_report_no_suspect">There is no suspect</string>
+    <string name="incident_report_subject">APP Incident Report</string>
+    <string name="send_report">Send Incident Report via</string>
+    <string name="incident_call_suspect_text">Call suspect</string>
+    <string name="action_dial_tel_label">tel: %1$s</string>
+    <string name="incident_suspect_phone_label">Call suspect: %1$s</string>
+    <string name="incident_suspect_no_phone">Contact has no phone</string>
+    <string name="incident_photo_description">Photo of the incident</string>
+    <plurals name="subtitle_plural">
+        <item quantity="one">%1$s incident</item>
+        <item quantity="other">%1$s incidents</item>
+    </plurals>
+</resources>

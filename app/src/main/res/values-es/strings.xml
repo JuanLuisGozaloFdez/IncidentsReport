@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2018. HuanLu Robotics. Todos los derechos reservados / All rigths reserved.
+  -->
+
+<resources>
+    <string name="app_name">Incidencias</string>
+    <string name="incident_title_hint">Introduzca un titulo para el incidente</string>
+    <string name="incident_title_label">Título</string>
+    <string name="incident_details_label">Detalles</string>
+    <string name="incident_solved_label">¿Resuelta?</string>
+    <string name="date_picker_title">Fecha de la incidencia</string>
+    <string name="new_incident">Nueva incidencia</string>
+    <string name="show_subtitle">Mostrar subtítulos</string>
+    <string name="hide_subtitle">Ocultar subtítulos</string>
+    <string name="subtitle_format">%1$s incidencias</string>
+    <string name="subtitles_option">Subtítulos</string>
+    <string name="exit_app">Salir</string>
+    <string name="create_new_incident_button">Crear nueva incidencia</string>
+    <string name="empty_incident_list_message_textview">!Vaya! Parece que aún no hay incidencias</string>
+    <string name="retry_incident_list_message_textview">Ha ocurrido un problema al cargar datos</string>
+    <string name="retry_incident_list_button_message">Pulse para reintentar</string>
+    <string name="incident_details_hint">Introduzca detalles de la incidencia</string>
+    <string name="empty_incident_list_add_new_incident_button_message">Pulse para añadir</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2018. HuanLu Robotics. Todos los derechos reservados / All rigths reserved.
+  -->
+
+<resources>
+    <item name="activity_masterdetail" type="layout">@layout/activity_fragment</item>
+</resources>

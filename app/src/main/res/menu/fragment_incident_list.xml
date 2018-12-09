@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2018. HuanLu Robotics. Todos los derechos reservados / All rigths reserved.
+  -->
+
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_item_new_incident"
+        android:icon="@drawable/ic_menu_add"
+        android:title="@string/new_incident"
+        app:showAsAction="ifRoom|withText"/>
+    <item
+        android:id="@+id/menu_item_subtitles"
+        android:title="@string/subtitles_option"
+        app:showAsAction="never">
+        <menu >
+            <item
+                android:id="@+id/menu_item_show_subtitle"
+                android:title="@string/show_subtitle"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/menu_item_hide_subtitle"
+                android:title="@string/hide_subtitle"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_item_exit"
+        android:icon="@drawable/ic_menu_exit"
+        android:title="@string/exit_app"
+        app:showAsAction="never"/>
+</menu>
